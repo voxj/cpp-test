@@ -17,7 +17,7 @@ int main() {
       }
       else if (s == "3") {
         string r;
-        cout << "You: ";
+        cout << "warning! to make spaces, use %.\nYou: ";
         cin >> r;
         size_t pos = 0;
         while ((pos = r.find('%', pos)) != string::npos) {
